@@ -5,9 +5,9 @@
 float gx, gy, gz;
 long timer = 0;
 
-char ssid[] = "bat cave";
-char pwd[] = "yat@Berlin53";
-char host[] = "192.168.178.21";
+char ssid[] = "YOUR_WIFI_SSID";
+char pwd[] = "YOUR_WIFI_PWD";
+char host[] = "YOUR_IP_ADR";
 int publish_port = 5005;
 
 void setup() {
