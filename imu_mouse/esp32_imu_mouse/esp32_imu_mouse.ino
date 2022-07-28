@@ -5,8 +5,11 @@
 float gx, gy, gz;
 long timer = 0;
 
+// Wifi
 char ssid[] = "bat cave";
 char pwd[] = "yat@Berlin53";
+
+// OSC
 char host[] = "192.168.178.21";
 int publish_port = 5005;
 

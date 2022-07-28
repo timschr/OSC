@@ -1,11 +1,11 @@
 #include <ArduinoOSCWiFi.h>
 
 // Wifi
-char ssid[] = "bat cave";
-char pwd[] = "yat@Berlin53";
+char ssid[] = "MY_WIFI_SSID";
+char pwd[] = "MY_WIFI_PWD";
 
 // OSC
-char host[] = "192.168.178.21";
+char host[] = "MY_IP_ADRESS";
 int publish_port = 5005; // neighbors door
 
 int period = 5000; // 5000ms = 5s
