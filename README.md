@@ -1,8 +1,13 @@
 # OSC
-This repository is developed during the seminar Hot Topics in Communication Systems at the TU Berlin. The goal is to investigate how Open Sound Control (OSC) can be implemented on different hardware with as few barriers as possible. Furthermore, the limitations and possibilities of OSC will be investigated. 
+Dieses Repository ist im Rahmen des Seminars Hot Topics in Communication Systems an der TU Berlin entstanden. Ziel ist es, zu untersuchen, wie Open Sound Control (OSC) auf unterschiedlicher Hardware mit möglichst geringen Barrieren implementiert werden kann. Zu diesem Zweck wurden mehrere Use Cases entwickelt, die einen guten Einstieg in das Thema OSC bieten. Details zur Implementierung sind im [Wiki](https://github.com/timschr/OSC/wiki) zu finden.
 
-## Uee Case 1: IMU Mouse
-The possibilities made possible by OSC are shown in the first use case with a very tangible example. Sensor data are transmitted via an [ESP32](https://www.espressif.com/en/products/modules/esp32) in such a way that it functions as a computer mouse. For this purpose an Interial Measurement Unit is connected to the ESP32. With OSC the sensor data are sent to an OSC server on the PC, which is to be controlled. Implementation details can be found in the [Wiki](https://github.com/timschr/OSC/wiki).
+## Use Case 1: Hello World
+Der [ESP32](https://www.espressif.com/en/products/modules/esp32) sendet ein "Hello World" an einen Computer mit OSC.
 
+## Use Case 2: Chat
+Die serielle Konsole des [ESP32](https://www.espressif.com/en/products/modules/esp32) kann verwendet werden, um eine Nachricht einzugeben und sie an einen Computer zu senden.
+
+## Use Case (zusätzlich): IMU-Maus
+Sensordaten werden über den [ESP32](https://www.espressif.com/en/products/modules/esp32) so übertragen, dass er wie eine Computermaus funktioniert. Zu diesem Zweck wird eine [Interial Measurement Unit](https://de.wikipedia.org/wiki/Inertiale_Messeinheit) an den ESP32 angeschlossen. Mit OSC werden die Sensordaten an einen OSC-Server auf dem PC gesendet, der gesteuert werden soll. 
 
 ![](assets/imu_mouse.gif)
