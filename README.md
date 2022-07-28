@@ -11,5 +11,4 @@ Die serielle Konsole des [ESP32](https://www.espressif.com/en/products/modules/e
 Sensordaten werden über den [ESP32](https://www.espressif.com/en/products/modules/esp32) so übertragen, dass er wie eine Computermaus funktioniert. Zu diesem Zweck wird eine [Interial Measurement Unit](https://de.wikipedia.org/wiki/Inertiale_Messeinheit) an den ESP32 angeschlossen. Mit OSC werden die Sensordaten an einen OSC-Server auf dem PC gesendet, der gesteuert werden soll. 
 
 ![](assets/imu_mouse.gif)
-=======
-This repository is developed during the seminar Hot Topics in Communication Systems at the TU Berlin. The goal is to investigate how Open Sound Control (OSC) can be implemented on different hardware with as few barriers as possible. Initially OSC was designed for realtime music performances, it will be investigated which limits and possibilities OSC has outside the music domain. 
+
