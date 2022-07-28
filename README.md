@@ -1,7 +1,7 @@
 # OSC
 Dieses Repository ist im Rahmen des Seminars Hot Topics in Communication Systems an der TU Berlin entstanden. Ziel ist es, zu untersuchen, wie Open Sound Control (OSC) auf unterschiedlicher Hardware mit möglichst geringen Barrieren implementiert werden kann. Zu diesem Zweck wurden mehrere Use Cases entwickelt, die einen guten Einstieg in das Thema OSC bieten. Details zur Implementierung sind im [Wiki](https://github.com/timschr/OSC/wiki) zu finden.
 
-## Use Case 1: Hallo Welt
+## Use Case 1: Hello World
 Der [ESP32](https://www.espressif.com/en/products/modules/esp32) sendet ein "Hello World" an einen Computer mit OSC.
 
 ## Use Case 2: Chat
