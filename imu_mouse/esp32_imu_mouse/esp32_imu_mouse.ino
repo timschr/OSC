@@ -15,7 +15,7 @@ void setup() {
     Serial.begin(9600);  
     while (!Serial);    // wait for the serial port to open
     // BEgin I2C
-    Wire.begin(5, 6);  
+    Wire.begin(21,22);  
     // WiFi connection
     WiFi.begin(ssid, pwd);
 
